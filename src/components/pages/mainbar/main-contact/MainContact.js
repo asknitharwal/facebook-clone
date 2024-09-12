@@ -90,9 +90,6 @@ const contact = [
     name: "Prachi",
     image: "https://cdn4.sharechat.com/img_1599842794_194217_9001cdd_1663260840440_sc.jpg?tenant=sc&referrer=feed-service&f=440_sc.jpg",
   },
-  fried={
-    
-  }
 ];
 const MainContact = () => {
   return (
