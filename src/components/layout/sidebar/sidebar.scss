@@ -1,0 +1,103 @@
+.side-up {
+  // border: 1px solid black;
+  & .side-up-item {
+    display: flex;
+    margin: 2px 15px 10px 5px;
+    justify-content: start;
+  }
+  & .side-up-item:hover {
+    background-color: rgba(210, 210, 215, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  & .span_icon {
+    color: rgb(54, 54, 240);
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  & span {
+    font-size: 17px;
+    font-weight: 500;
+    margin:9px 0 0 15px;
+  }
+  & .seemore_btn {
+    width: 70%;
+    margin: auto;
+    & button {
+      width: 100%;
+      margin: 0 0 5px 0;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 7px;
+      border: none;
+      background-color: rgba(202, 196, 196, 0.655);
+      border-radius: 15px;
+    }
+    & button:hover {
+      background-color: rgb(197, 219, 239);
+      cursor: pointer;
+    }
+  }
+  & hr {
+    width: 88%;
+    margin: 0 auto;
+    border: 1px solid rgb(206, 200, 200);
+  }
+}
+
+.side-down {
+  margin-top: 5px;
+  & .down-head {
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 8px;
+    color: rgb(100, 99, 99);
+    justify-content: space-between;
+  }
+
+  & .icon {
+    font-size: 28px;
+    margin-right: 20px;
+  }
+  & .down-body {
+    display: flex;
+    justify-content: start;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  & .down-body:hover {
+    background-color: rgb(217, 217, 223);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  & .down-body img {
+    width: 35px;
+    height: 35px;
+    margin: 0 5px 5px 10px;
+    border-radius: 10px;
+  }
+  & .down-body span {
+    margin: 5px 0 0 8px;
+  }
+  & .seemore_btn {
+    width: 70%;
+    margin: auto;
+    & button {
+      width: 100%;
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 7px;
+      border: none;
+      background-color: rgba(202, 196, 196, 0.655);
+      border-radius: 15px;
+    }
+    & button:hover {
+      background-color: rgb(197, 219, 239);
+      cursor: pointer;
+    }
+  }
+}
